@@ -29,4 +29,17 @@ p {
 		float: left;
 		width: 50%
 	}
+	.col-md-12{
+		float: left;
+		width: 100%
+	}
+}
+
+/* Mobile deviced */
+
+@media (max-width: 767px) {
+	.col-sl-12{
+		float: left;
+		width: 100%;
+	}
 }
