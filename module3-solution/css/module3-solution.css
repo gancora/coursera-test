@@ -9,3 +9,25 @@
 	font-size: 25px;
 	color: #662100;
 }
+
+
+/** Footer **/
+
+#collapsable-nav li hr {
+    width: 90%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#collapsable-nav li a {
+	text-align: center;
+	color: #FFFF;
+	margin: 0px;
+} 
+
+@media (max-width: 767px) {
+
+	#collapsable-nav {
+		background-color: #D2691E;
+	}
+}
